@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="ISO-8859-1">
+	<title>Train Add</title>
+	
+	<style>
+		*{
+			box-sizing: border-box;
+		}
+		body{
+			background-image: url(img3.jpg);
+			background-repeat: no-repeat;
+           
+             background-size: cover;
+			margin-left:10%;
+			margin-right:10%;
+		}
+        nav a{
+            text-decoration: none;
+            color:white;
+            text-align:center;
+            padding: 20px;
+            float: left;
+        }
+        nav{
+            background-color: black;
+            overflow: hidden;
+        }
+        nav a:hover{
+            color:royalblue;
+        }
+	</style>
+</head>
+<body>
+<header>
+<h1><b>Pakistan railway</b></h1>
+<h2>Add train</h2>
+<nav>
+	<a href="AdminHome.html">Home</a>
+	<a href="adminsearchtrainfwd">Search Trains</a>
+	<a href="adminviewtrainfwd">View Trains</a>
+	<a href="cancletrainfwd">Cancel Train </a>
+	<a href="updatetrain">Update Schedule</a>
+	<a href="adminlogout">Logout</a></p1>
+</nav>	
+</header>
+
+<form  class="tab" action="adminaddtrain" method="post"><br/>
+		Train Number: <input type="text" name="trainno"><br/><br/>
+		Train Name: &nbsp &nbsp  <input type="text" name="trainname"><br/><br/>
+		From Station:  &nbsp  <input type="text" name="fromstation"><br/><br/>
+		To Station: &nbsp   &nbsp  &nbsp &nbsp<input type="text" name="tostation"><br/><br/>
+		Available:  &nbsp   &nbsp  &nbsp   &nbsp<input type="text" name="available"><br/><br/>
+		Price:    &nbsp  &nbsp &nbsp   &nbsp &nbsp  &nbsp &nbsp  <input type="text" name="fare"><br/><br/>
+		<input type="submit" value=" ADD TRAIN ">
+	</form><br/>
+
+</body>
+</html>

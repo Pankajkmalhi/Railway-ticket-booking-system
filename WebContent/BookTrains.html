@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="ISO-8859-1">
+	<title>Book Ticket</title>
+	<style>
+			
+		*{
+			box-sizing: border-box;
+		}
+		body{
+			background-image: url(sandy.jpg);
+			background-repeat: no-repeat;
+           
+             background-size: cover;
+			margin-left:10%;
+			margin-right:10%;
+		}
+        nav a{
+            text-decoration: none;
+            color:white;
+            text-align:center;
+            padding: 20px;
+            float: left;
+        }
+        nav{
+            background-color: black;
+            overflow: hidden;
+        }
+        nav a:hover{
+            color:royalblue;
+        }
+	</style>
+</head>
+<body>
+<header>
+<h1><b>Pakistan Railways</b></h1>
+<h2>Ticket Booking</h2>
+<nav>
+	<a href="userhome">Home</a>
+	<a href="userviewtrainfwd">View Trains</a>
+	<a href="usersearchtrain">Search Trains</a>
+	<a href="userprofile">Profile</a>
+	<a href="userlogout">Logout</a>
+</nav>
+</header>
+<form action="booktrains" method="post">
+<br>
+		<h3>TrainNumber:</h3> <input type="text" name="trainnumber"><br/><br/>
+		<h3>No of seats:</h3>  <input type='text' name='seats'><br/><br/>
+		<input type="submit" value=" Book Now "><br/>
+	</form><br/>
+
+</body>
+</html>

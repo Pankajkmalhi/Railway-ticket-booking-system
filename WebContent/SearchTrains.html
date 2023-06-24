@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="ISO-8859-1">
+	<title>User Dekstop</title>
+	<style>
+		
+		*{
+			box-sizing: border-box;
+		}
+		body{
+			background-image: url(sandy.jpg);
+			background-repeat: no-repeat;
+           
+             background-size: cover;
+			margin-left:10%;
+			margin-right:10%;
+		}
+        nav a{
+            text-decoration: none;
+            color:white;
+            text-align:center;
+            padding: 20px;
+            float: left;
+        }
+        nav{
+            background-color: black;
+            overflow: hidden;
+        }
+        nav a:hover{
+            color:royalblue;
+        }
+	</style>
+</head>
+<body>
+<header>
+    <h1><b>Pakistan Railway</b></h1>
+    <h2>Search Trains</h2>
+    <nav>
+       <a href="userhome">Home</a></p1>
+       <a href="booktrainfwd">Ticket Booking</a>
+        <a href="userviewtrainfwd">View Trains</a>
+        <a href="userprofile">Profile</a>
+        <a href="userlogout">Logout</a>
+</nav>
+</header>
+<form action="searchtrainservlet" class="tab red" method="post">
+	<h4>	<b>Enter Train Number:</b> </h4><input type="text" name="trainnumber"><br/><br/>
+		<input type="submit" value=" SEARCH TRAIN "><br/>
+	</form><br/>
+
+</body>
+</html>

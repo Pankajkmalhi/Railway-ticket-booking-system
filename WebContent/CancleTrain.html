@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="ISO-8859-1">
+	<title>Admin Home</title>
+	<style>
+		*{
+			box-sizing: border-box;
+		}
+		body{
+			background-image: url(img3.jpg);
+			background-repeat: no-repeat;
+           
+             background-size: cover;
+			margin-left:10%;
+			margin-right:10%;
+		}
+        nav a{
+            text-decoration: none;
+            color:white;
+            text-align:center;
+            padding: 20px;
+            float: left;
+        }
+        nav{
+            background-color: black;
+            overflow: hidden;
+        }
+        nav a:hover{
+            color:royalblue;
+        }
+	</style>
+</head>
+<body>
+<header>
+<h1><b>Pakistan Railway</b></h1>
+<h2>Remove train</h2>
+<nav>
+		<a href="AdminHome.html">Home</a>
+	<a href="adminsearchtrainfwd">Search Trains</a>
+
+	<a href="adminviewtrainfwd">View Trains</a>
+	<a href="addtrainfwd">Add Train</a>
+	<a href="updatetrain">Update Schedule</a>
+	<a href="adminlogout">Logout</a></p1>
+	</nav>
+
+<form  class="tab" action="admincancletrain" method="post">
+		<h3>Train Number:</h3><input type="text" name="trainno"><br/><br/>
+		<input type="submit" value=" CANCLE TRAIN ">
+	</form><br/>
+
+</body>
+</html>
